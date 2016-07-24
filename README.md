@@ -8,11 +8,13 @@ A simple drawing tool for marking up a page of text using HTML5 canvas.
 
 ---
 
+[View Live Demo](http://www.etchakhtar.com/apps/html5-canvas/index.html)
+
 ![Screenshot](readme/screenshot.png?raw=true)
 
 ## Usage
 
-On intial page load you are in drawing mode.  Click once to add text or click/drag to add a line.
+On initial page load you are in drawing mode.  Click once to add text or click/drag to add a line.
 
 ![Screenshot](readme/objects.png?raw=true)
 
