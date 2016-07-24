@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>Drawing App</title>
+		<link href="assets/vendor/spectrum/spectrum.css?v=1.0.0" type="text/css" rel="stylesheet" />
+		<link href="assets/css/main.css?v=1.0.0" type="text/css" rel="stylesheet" />
+		<link href="assets/css/vendor.css?v=1.0.0" type="text/css" rel="stylesheet" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+	</head>
+	<body>
+		<div id="container">
+			<header id="navbar">
+				<div class="buttons">
+					<button id="select" class="menu">Select Objects</button>
+					<button id="draw" class="menu on">Draw Lines / Text</button>
+					<button id="deleteAll">Delete All Objects</button>
+					<button id="deleteSelected">Delete Selected Objects</button>
+					<input type='text' id="colorpicker"/>
+					<a class="help" href="README.html" target="_blank">Help</a>
+				</div>
+			</header>
+
+			<div id="canvasContainer">
+				<canvas id="canvas" width="1000" height="1300"></canvas>
+			</div>
+
+		</div>
+
+		<script defer type="text/javascript" src="assets/js/min/vendor-min.js?v=1.0.0"></script>
+		<script defer type="text/javascript" src="assets/js/min/main-min.js?v=1.0.0"></script>
+	</body>
+</html>
+

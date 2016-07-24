@@ -1,0 +1,26 @@
+{
+  "name": "Etch Akhtar",
+  "version": "1.0.0",
+  "authors": [
+    "Etch Akhtar <contact@etchakhtar.com>"
+  ],
+  "description": "Application",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/bundles/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "spectrum": "^1.8.0",
+    "fabric.js": "fabric#^1.6.3"
+  }
+}

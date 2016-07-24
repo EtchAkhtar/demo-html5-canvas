@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Etch Akhtar -- Senior Web Developer
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Less
+    jQuery, Fabric JS, Spectrum

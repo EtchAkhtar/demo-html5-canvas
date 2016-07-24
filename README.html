@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="drawingapp">Drawing App</h1>
+
+<p>A simple drawing tool for marking up a page of text using HTML5 canvas.</p>
+
+<h3 id="version">Version</h3>
+
+<p>1.0.0</p>
+
+<hr />
+
+<figure>
+<img src="readme/screenshot.png?raw=true" alt="Screenshot" />
+<figcaption>Screenshot</figcaption>
+</figure>
+
+<h2 id="usage">Usage</h2>
+
+<p>On intial page load you are in drawing mode. Click once to add text or click/drag to add a line.</p>
+
+<figure>
+<img src="readme/objects.png?raw=true" alt="Screenshot" />
+<figcaption>Screenshot</figcaption>
+</figure>
+
+<p>You can select 1 or more objects and move/rotate/scale them.</p>
+
+<figure>
+<img src="readme/transform.png?raw=true" alt="Transform" />
+<figcaption>Transform</figcaption>
+</figure>
+
+<p>You can delete all objects or only the selected objects. For selected objects you can use the delete key on the keyboard. If no items are selected and you use the delete buttons, it will tell you this (but not using the delete key as it&#8217;s not user-friendly).</p>
+
+<p>All data is saved to local storage for later retrieval.</p>
+
+<p>When adding text, arrows and labels are not grouped making it possible to reposition them wherever and however you want.</p>
+
+<h2 id="resources">Resources</h2>
+
+<h3 id="librariesused">Libraries Used</h3>
+
+<p>All libraries managed with Bower.</p>
+
+<ol>
+<li>jQuery</li>
+<li>Fabric as the canvas library</li>
+<li>Spectrum for color picker (Have used Farbtastic in the past but it is no longer maintained)</li>
+</ol>
+
+<h3 id="toolsused">Tools Used</h3>
+
+<p>CodeKit - https://incident57.com/codekit/</p>
+
+<p>This was used to:</p>
+
+<ul>
+<li>Compile less</li>
+<li>Minify/combine css/js files</li>
+<li>Convert this markdown file into html</li>
+</ul>
+
+<h2 id="directorystructure">Directory Structure</h2>
+
+<h3 id="root">root</h3>
+
+<ul>
+<li>index.html - The application</li>
+<li>.bowerrc - Where to store bower components</li>
+<li>.editorconfig - Rules for saving source files</li>
+<li>.gitattributes - Normalize line endings for versioning</li>
+<li>.gitignore - What to remove from git (decided to not ignore bower components)</li>
+<li>bower.json - The packages/dependencies installed</li>
+<li>browserconfig.xml - Configuration for handling MS tile icons</li>
+<li>crossdomain.xml - Cross-domain policy file</li>
+<li>humans.txt - Meet the team and the technologies used</li>
+<li>robots.txt - Crawler configuration</li>
+<li>favicon and other icons</li>
+</ul>
+
+<h3 id="assets">assets</h3>
+
+<ul>
+<li>css - the minified/compiled css files used</li>
+<li>images - any images used</li>
+<li>js - source js files and the minified compiled files used by the app (in &#8216;min&#8217;). Uses CodeKit.</li>
+<li>less - the source of the compiled css files</li>
+<li>vendor - the installed bower components</li>
+</ul>
+
+<h2 id="testing">Testing</h2>
+
+<p>Tested on Mac: Firefox, Chrome, Safari</p>
+
+<h3 id="knownissues">Known Issues</h3>
+
+<ul>
+<li>Fabric isn&#8217;t storing the color for objects into its exported JSON string. It will do this if lines are created with points passed into the constructor, but not if dynamically being modified. In the latter case it stores the color as HSV intead of RGB and can&#8217;t read it back in.</li>
+<li>In Safari color is ignored outright.</li>
+<li>Make it responsive.</li>
+</ul>
+
+</body>
+</html>
