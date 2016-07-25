@@ -31,17 +31,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/background.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.24138e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/background.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/background.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1906,28 +1895,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/readme\/objects.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 165109,
-		"inputAbbreviatedPath": "\/readme\/objects.png",
-		"outputAbbreviatedPath": "\/readme\/objects.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/readme\/screenshot.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 245236,
-		"inputAbbreviatedPath": "\/readme\/screenshot.png",
-		"outputAbbreviatedPath": "\/readme\/screenshot.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/readme\/transform.png": {
 		"fileType": 32768,
